@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.nav-buttons {
+  margin-left: 50%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.9rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+h6 {
+  color: #d8d8d8;
+}
+
+.navbar {
+  font-size: 16px;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+  top: 0;
+  left: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+  padding: 0 20px;
+  color: black;
+  transition: 0.4 ease;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar .navbar-nav .nav-link.active,
+.navbar i.active {
+  color: #18db0b;
+}
+
+.navbar i {
+  font-size: 1.2rem;
+  padding: 0 0.7px;
+  transition: 0.4s ease;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#home {
+  background-image: url(/assets/img/janko-ferlic-eBtwD6ZG78I-unsplash.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position-x: 90px ;
+
+}
+
