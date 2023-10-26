@@ -40,10 +40,45 @@ h6 {
   color: #d8d8d8;
 }
 
+button {
+  font-size: 0.8rem;
+  font-weight: 900;
+  outline: none;
+  border: none;
+  background-color: #1d1d1d;
+  color: white;
+  padding: 13px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+button:hover {
+  color: #18db0b;
+}
+
+@media only screen and (max-width:990px) {
+
+  .nav-buttons {
+    margin: 10px;
+  }
+
+  .nav-buttons ul {
+    margin: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .nav-buttons ul .fa-solid {
+    margin: 20px 5px 10px 20px;
+  }
+}
+
 .navbar {
   font-size: 16px;
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   top: 0;
   left: 0;
 }
@@ -70,11 +105,16 @@ h6 {
 }
 
 #home {
-  background-image: url(/assets/img/janko-ferlic-eBtwD6ZG78I-unsplash.jpg);
+  background-image: url(/assets/img/C4BC5075-D649-4502-97F1-0AD749211C89_1_201_a.jpeg);
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position-x: 90px ;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
+#home span {
+  color: #18db0b;
+}
