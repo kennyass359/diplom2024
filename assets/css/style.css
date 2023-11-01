@@ -73,6 +73,10 @@ button:hover {
   .nav-buttons ul .fa-solid {
     margin: 20px 5px 10px 20px;
   }
+
+  #home {
+    background-position-x: 50%;
+  }
 }
 
 .navbar {
