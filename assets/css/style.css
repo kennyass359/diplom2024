@@ -228,3 +228,13 @@ footer .copyright a:hover {
 footer .copyright img {
   width: 30%;
 }
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor:  pointer;
+}
