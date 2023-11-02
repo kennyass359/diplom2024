@@ -57,8 +57,7 @@ button:hover {
   color: #18db0b;
 }
 
-@media only screen and (max-width:990px) {
-
+@media only screen and (max-width: 990px) {
   .nav-buttons {
     margin: 10px;
   }
@@ -134,4 +133,98 @@ button:hover {
 
 .product:hover img {
   opacity: 0.7;
+}
+
+.product .buy-btn {
+  background-color: black;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: 0.3s all;
+}
+
+.product:hover .buy-btn {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+hr {
+  border-top: none;
+  width: 30px;
+  height: 3px !important;
+  opacity: 1 !important;
+  background-color: #18db0b !important;
+}
+
+#banner {
+  background-image: url(../img/3_768437c0-2fa1-4df9-b647-9b4c688aebf2.webp);
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  background-position-x: center;
+  background-position-y: 80px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+
+footer {
+  background-color: rgb(204, 210, 220);
+}
+
+footer h5 {
+  color: black;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+footer li {
+  padding-bottom: 4px;
+}
+
+footer li a {
+  font-size: 0.8rem;
+  color: gray;
+  text-decoration: none;
+}
+
+footer li a:hover {
+  color: #18db0b;
+}
+
+footer .copyright a {
+  color: black;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  line-height: 38px; 
+  border-radius: 50%;
+  transition: 0.3s ease;
+  margin: 0 5px;
+}
+
+footer p {
+  color: black;
+}
+
+footer h6 {
+  color: black;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer .copyright a:hover {
+  color: white;
+  background-color: #18db0b;
+}
+
+footer .copyright img {
+  width: 30%;
 }
