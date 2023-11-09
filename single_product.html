@@ -51,10 +51,11 @@
     </div>
   </nav>
 
-  <section class="single-product my-5 pt-5">
+  <!-- single product -->
+  <section class="container single-product my-5 pt-5">
     <div class="row mt-5"> 
         <div class="col-lg-5 col-md-6 col-sm-12">
-            <img class="img-fluid w-100 pb-1" src="./assets/img/acc1.webp" alt="">
+            <img class="img-fluid w-100 pb-1" src="./assets/img/acc1.webp" alt="" id="mainImg">
             <div class="small-img-group">
                 <div class="small-img-col">
                     <img src="./assets/img/acc2.webp" width="100%" class="small-img" alt="">
@@ -70,8 +71,53 @@
                 </div>
             </div>
         </div>
+
+
+        <div class="col-lg-6 col-md-12 col-12">
+          <h6>Аксессуары</h6>
+          <h3 class="py-4">Органическая сумка</h3>
+          <h2>1000.00 ₽</h2>
+          <input type="number" value="1" name="" id="">
+          <button class="buy-btn">Купить</button>
+          <h4 class="mt-5 mb-5">Описание</h4>
+          <span>Многоразовая сумка из 100% органического хлопка.</span>
+        </div>
     </div>
   </section>
+
+    <!-- related products -->
+    <section id="related- products" class="my-5 pb-5">
+      <div class="container text-center mt-5 py-5">
+        <h3>Вам обязательно подойдут</h3>
+        <hr class="mx-auto"/>
+      </div>
+      <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+          <img class="img-fluid mb-3" src="./assets/img/10.png.webp" alt="" />
+          <h5 class="p-name">Зимний лёд</h5>
+          <h4 class="p-price">4000.00 ₽</h4>
+          <button class="buy-btn">Купить</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+          <img class="img-fluid mb-3" src="./assets/img/13.png.webp" alt="" />
+          <h5 class="p-name">Весеннее цветение</h5>
+          <h4 class="p-price">4000.00 ₽</h4>
+          <button class="buy-btn">Купить</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+          <img class="img-fluid mb-3" src="./assets/img/16.png.webp" alt="" />
+          <h5 class="p-name">Осенний призыв</h5>
+          <h4 class="p-price">4000.00 ₽</h4>
+          <button class="buy-btn">Купить</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-sm-12">
+          <img class="img-fluid mb-3" src="./assets/img/19.jpg.webp" alt="" />
+          <h5 class="p-name">Просто футболка</h5>
+          <h4 class="p-price">4000.00 ₽</h4>
+          <button class="buy-btn">Купить</button>
+        </div>
+      </div>
+    </section>
 
     <!-- footer -->
     <footer class="mt-5 py-5">
@@ -115,6 +161,19 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/34a4f1a444.js" crossorigin="anonymous"></script>
+  <script>
+    var mainImg = document.getElementById("mainImg");
+    var smallImg = document.getElementsByClassName("small-img"); 
+
+    for (let i = 0; i < 4; i++) {
+      smallImg[i].onclick = function(){
+      mainImg.src = smallImg[i].src;
+    }
+    }
+
+
+
+  </script>
 </body>
 
 </html>
