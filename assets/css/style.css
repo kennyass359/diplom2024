@@ -78,6 +78,13 @@ button:hover {
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .nav-buttons {
+    margin-left: 40%;
+  }
+
+}
+
 .navbar {
   font-size: 16px;
   padding-top: 2rem;
@@ -255,4 +262,91 @@ footer .copyright img {
   background-color: black;
   opacity: 1;
   transition: 0.4s all;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart .product-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart th {
+  text-align: left;
+  padding: 5px 10px;
+  color:black;
+  background-color: white;
+}
+
+.cart td {
+  padding: 10px 20px;
+}
+
+.cart td img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.cart td input {
+  width: 50px;
+  height: 30px;
+  padding: 5px;
+}
+
+.cart td a {
+  color: #18db0b;
+}
+
+.cart .remove-btn {
+  color:#18db0b;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.cart .edit-btn {
+  color:#18db0b;
+  text-decoration: none;
+  font-size:medium;
+}
+
+.cart .product-info p {
+  margin: 3px;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-total table {
+  width: 100%;
+  max-width: 500px;
+  border-top: 3px solid #18db0b
+}
+
+.td:last-child {
+  text-align: right;
+}
+
+.tr:last-child {
+  text-align: right;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.checkout-btn {
+  background-color: black;
+  color: white;
+  border-radius: 0;
+}
+
+.checkout-btn:hover {
+  background-color: black;
+  color:#18db0b;
 }
