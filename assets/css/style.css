@@ -350,3 +350,25 @@ footer .copyright img {
   background-color: black;
   color:#18db0b;
 }
+
+/* login */
+#login-form {
+  width: 50%;
+  margin: 5px auto;
+  text-align: center; 
+  padding: 20px;
+}
+
+#login-form input {
+  width: 50%;
+  margin: 5px auto;
+}
+
+#login-form #login-btn {
+  background-color: black;
+  color: white;
+}
+
+#login-form #register-url {
+  color:#18db0b;
+}
