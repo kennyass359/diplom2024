@@ -372,3 +372,50 @@ footer .copyright img {
 #login-form #register-url {
   color:#18db0b;
 }
+
+/*Reg*/
+#register-form {
+  width: 50%;
+  margin: 5px auto;
+  text-align: center; 
+  padding: 20px;
+}
+
+#register-form input {
+  width: 50%;
+  margin: 5px auto;
+}
+
+#register-form #register-btn {
+  background-color: black;
+  color: white;
+}
+
+#register-form #login-url {
+  color:#18db0b;
+}
+
+#account-form {
+  width: 50%;
+  margin: 35px auto;
+  text-align: center; 
+}
+
+#account-form input {
+  margin: 5px auto;
+}
+
+#account-form #change-pass-btn {
+  background-color: black;
+  color: white;
+}
+
+#account-form {
+  color: black;
+  text-decoration: none;
+}
+
+#logout-btn, #orders-btn {
+  color: #18db0b;
+  text-decoration: none;
+}

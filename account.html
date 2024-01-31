@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>invvi - Органическая одежда</title>
+  <link rel="shortcut icon" href="./assets/img/Group 1.svg" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-4 fixed-top">
+    <div class="container">
+      <a href="./index.html"><img src="./assets/img/Group 1.svg" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse nav-buttons" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html">Каталог</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Бренд</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Контакты </a>
+          </li>
+
+          <li class="nav-item">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-solid fa-user"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Account -->
+  <section class="my-5 py-5">
+    <div class="row container mx-auto">
+      <div class="text-center mt-3 pt-5 col-lg-6 col-md-12 col-sm-12">
+        <h3 class="font-weight-bold">Аккаунт</h3>
+        <hr class="mx-auto">
+        <div class="account-info">
+          <p>Имя: <span>Михаил</span></p>
+          <p>Email: <span>michael09102004@gmail.com</span></p>
+          <p><a href="" id="orders-btn">Ваши заказы</a></p>
+          <p><a href="" id="logout-btn">Выйти</a></p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+        <form id="account-form">
+          <h3>Сменить пароль</h3>
+          <hr class="mx-auto">
+          <div class="form-group">
+            <label>Пароль</label>
+            <input type="password" class="form-control" id="account-password">
+          </div>
+          <div class="form-group">
+            <label>Подтвердите пароль</label>
+            <input type="password" class="form-control" id="account-password-confirm">
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Сменить пароль" class="btn" id="change-pass-btn">
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="mt-5 py-5">
+    <div class="row justify-content-center container mx-auto pt-5">
+      <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+        <img src="./assets/img/Group 1.svg" alt="">
+        <p class="pt-3">Просто мы, просто лучше.</p>
+      </div>
+      <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+        <h5 class="pb-2">Наш выбор</h5>
+        <ul class="text-uppercase">
+          <li><a href="#">Мужское</a></li>
+          <li><a href="#">Женское</a></li>
+          <li><a href="#">Аксессуары</a></li>
+          <li><a href="#">О нас</a></li>
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Доставка</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-one col-lg-3 col-md-6 col-sm-12">
+        <h5 class="pb-2">Напишите нам</h5>
+        <div>
+          <h6 class="text-uppercase">Адрес</h6>
+          <p>Россия, Чебоксары</p>
+        </div>
+        <div>
+          <h6 class="text-uppercase">Телефон</h6>
+          <p>11-11-11</p>
+        </div>
+        <div>
+          <h6 class="text-uppercase">Почта</h6>
+          <p>michael09102004@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/34a4f1a444.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
