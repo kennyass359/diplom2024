@@ -38,12 +38,12 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Контакты </a>
+            <a class="nav-link" href="./contact.html">Контакты </a>
           </li>
 
           <li class="nav-item">
-            <i class="fa-solid fa-bag-shopping"></i>
-            <i class="fa-solid fa-user"></i>
+            <a href="./cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="./account.html"><i class="fa-solid fa-user"></i></a>
           </li>
         </ul>
       </div>
@@ -86,10 +86,10 @@
   </section>
 
   <!-- orders -->
-  <section class="orders container my-5 py-5">
-    <div class="container mt-5">
-      <h2 class="font-weight-bolde">Заказы</h2>
-      <hr>
+  <section class="orders container my-2 py-3">
+    <div class="container mt-2">
+      <h2 class="font-weight-bolde text-center">Заказы</h2>
+      <hr class="mx-auto">
     </div>
 
     <table class="mt-5 pt-5">
@@ -99,77 +99,27 @@
       </tr>
       <tr>
         <td>
-          <div class="product-info"></div>
-        </td>
-
-        <td>
-
-        </td>
-      </tr>
-      <tr>
-        <td>
           <div class="product-info">
-            <img src="./assets/img/10.png.webp" alt="">
+            <img src="./assets/img/jeans1.webp" alt="">
             <div>
-              <p>Зимний лёд</p>
-              <small><span>₽</span>4000</small>
-              <br>
-              <a href="#" class="remove-btn">Удалить</a>
+              <p class="mt-3">
+                Синие джинсы
+              </p>
             </div>
           </div>
         </td>
 
         <td>
-          <input type="number" value="1">
-          <a href="#" class="edit-btn">Изменить</a>
+          <span>
+            12-02-2024
+          </span>
         </td>
 
-        <td>
-          <span>₽</span>
-          <span class="product">4000</span>
-        </td>
       </tr>
-      <tr>
-        <td>
-          <div class="product-info">
-            <img src="./assets/img/10.png.webp" alt="">
-            <div>
-              <p>Зимний лёд</p>
-              <small><span>₽</span>4000</small>
-              <br>
-              <a href="#" class="remove-btn">Удалить</a>
-            </div>
-          </div>
-        </td>
 
-        <td>
-          <input type="number" value="1">
-          <a href="#" class="edit-btn">Изменить</a>
-        </td>
-
-        <td>
-          <span>₽</span>
-          <span class="product">4000</span>
-        </td>
-      </tr>
     </table>
 
-    <div class="cart-total">
-      <table>
-        <tr>
-          <td>Всего</td>
-          <td>₽ 4000</td>
-        </tr>
-        <tr>
-          <td>Итог</td>
-          <td>₽ 4000</td>
-        </tr>
-      </table>
-    </div>
 
-    <div class="checkout-container">
-      <div class="btn checkout-btn">Оформить</div>
-    </div>
 
   </section>
 
